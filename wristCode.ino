@@ -1,3 +1,5 @@
+// two DC motors, one servo motor 
+
 // uses Encoder, assumes pin locations, PWD, and both motors are DC motors with L298 drivers, both motors have all ranges of motion, motors driven with PWM signals, motor directions controlled with direction pins
 
 #include <Encoder.h>  // Include the Encoder library for quadrature encoder handling
