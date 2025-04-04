@@ -18,7 +18,8 @@ long FLIP_ROTATED180 = 180;   // Palm-down (negative Z-axis)
 const int PWM_SPEED = 150;  // PWM value (0–255)
 const int TOLERANCE = 10;   // Allowed deviation from target
 
-void setup() {
+// Function to initialize motors, servo, and other hardware
+void setupMotorControl() {
   // Set all motor control pins as outputs
   pinMode(IN1, OUTPUT);
   pinMode(IN2, OUTPUT);
