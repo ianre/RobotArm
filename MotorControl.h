@@ -32,6 +32,7 @@ extern const int PWM_SPEED;  // PWM value (0–255)
 extern const int TOLERANCE;   // Allowed deviation from target
 
 // Function Prototypes
+void setupMotorControl();  // Call this function in setup() to initialize motors and servo
 void moveTiltTo(long target);
 void flipWrist(int angle);
 void stopTilt();
